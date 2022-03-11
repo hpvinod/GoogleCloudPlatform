@@ -17,5 +17,5 @@ kind: Namespace
 metadata:
   name: prod
   annotations:
-    configmanagement.gke.io/cluster-selector: selector-env-production
+    configsync.gke.io/cluster-name-selector: cluster-2
 # [END anthosconfig_quickstart_namespaces_hello_namespace] 
