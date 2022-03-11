@@ -15,7 +15,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: welcometoclusterselector
+  name: prod
   annotations:
-    configsync.gke.io/cluster-name-selector: cluster-1
+    configmanagement.gke.io/cluster-selector: selector-env-production
 # [END anthosconfig_quickstart_namespaces_hello_namespace] 
