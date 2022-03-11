@@ -15,5 +15,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: welcometogcp
+  name: welcometoclusterselector
+  annotations:
+    configsync.gke.io/cluster-name-selector: cluster-1
 # [END anthosconfig_quickstart_namespaces_hello_namespace] 
